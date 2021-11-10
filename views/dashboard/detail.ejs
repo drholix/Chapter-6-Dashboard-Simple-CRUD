@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <title>
+    Dashboard | Detail
+  </title>
+</head>
+
+<body>
+  <p>
+    <strong>
+      Detail
+    </strong>
+  </p>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <td>
+          ID
+        </td>
+        <td>
+          Username
+        </td>
+        <td>
+          Name
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <%= data.id %>
+        </td>
+        <td>
+          <%= data.username %>
+        </td>
+        <td>
+          <%= data.user_game_biodata.name %>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <a href="/dashboard/index">Kembali</a>
+</body>
+
+</html>

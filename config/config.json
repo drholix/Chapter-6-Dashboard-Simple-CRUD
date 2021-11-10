@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "drholix",
+    "password": "144144",
+    "database": "chapter6_database_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "drholix",
+    "password": "144144",
+    "database": "ch6_database_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "drholix",
+    "password": "144144",
+    "database": "ch6_database_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

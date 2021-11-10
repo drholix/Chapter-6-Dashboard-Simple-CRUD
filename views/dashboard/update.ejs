@@ -1,0 +1,18 @@
+<form action="/dashboard/update/<%= data.id %>" method="post">
+  <label for="username">Username</label>
+  <br>
+  <input type="text" name="username" value="<%= data.username %>">
+  <br>
+
+  <label for="password">Password</label>
+  <br>
+  <input type="password" name="password" value="<%= data.password %>">
+  <br>
+
+  <label for="name">Name</label>
+  <br>
+  <input type="text" name="name" value="<%= data.user_game_biodata.name %>">
+  <br>
+
+  <button type="submit">Simpan</button>
+</form>
